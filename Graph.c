@@ -116,7 +116,7 @@ int findPath(Graph g, Vertex src, Vertex destination, int max, int *path)
 	// ** Step 1. find shortest path ** // 
 	
 	// set up predecessors array 
-	// and distances array
+	// and distances array ()))
 	Vertex pred[g->nV]; // predecessors array
 	int dist[g->nV]; // total distance "hops" array
 	int i;
